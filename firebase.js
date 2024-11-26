@@ -1,12 +1,14 @@
+
 const firebaseConfig = {
-  apiKey: "AIzaSyDCPIwClDUrSf1GSaS0UBxJvvSuWUaNXe8",
-  authDomain: "securitybased.firebaseapp.com",
-  databaseURL: "https://securitybased-default-rtdb.firebaseio.com",
-  projectId: "securitybased",
-  storageBucket: "securitybased.appspot.com",
-  messagingSenderId: "153881595969",
-  appId: "1:153881595969:web:659d84810bb190aa69b6c0"
+  apiKey: "AIzaSyDb6iATYUxrPzUqaVNLD4BpxAqM40596cc",
+  authDomain: "rbac-338d4.firebaseapp.com",
+  projectId: "rbac-338d4",
+  storageBucket: "rbac-338d4.firebasestorage.app",
+  messagingSenderId: "964721464680",
+  appId: "1:964721464680:web:b2bf41c0424eb14bfe32dd",
+  measurementId: "G-1HWHG5V1SK"
 };
+
 
 firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
